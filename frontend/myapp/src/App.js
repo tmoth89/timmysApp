@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 
 const App = () => {
   const [users, setUsers] = useState([]);
-  const apiUrl = 'http://host.docker.internal:5000/api/users';
+  const apiUrl = 'http://backend:5000/api/endpoint';
 
   useEffect(() => {
     fetch(apiUrl)
