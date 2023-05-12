@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 
 const App = () => {
   const [users, setUsers] = useState([]);
-  const apiUrl = 'http://backend:5000/api/endpoint';
+  const apiUrl = 'http://timmysapp-backend:5000/api/users';
 
   useEffect(() => {
     fetch(apiUrl)

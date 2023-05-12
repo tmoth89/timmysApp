@@ -1,0 +1,14 @@
+# Exclude node_modules directory
+node_modules
+
+# Exclude log files
+*.log
+
+# Exclude build artifacts
+dist
+build
+out
+
+# Exclude development-specific files
+.DS_Store
+.editorconfig
