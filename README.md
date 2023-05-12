@@ -9,7 +9,7 @@
 # 2.) Prepare a docker-compose with Loki, Grafana, Promtail and nodeJS application.
       - After you have cloned the repo, make sure you are under the "timmysApp" directory.
       - If you have ran the above application(Part 1) make sure to bring container down to avoid port conflicts.
-      - MAKE MINOR CHANGE IN App.js file:  Change 'localhost' to 'backend' Ex.) apiUrl = 'http://timmysapp-backend:8080/api/users';
+      - MAKE MINOR CHANGE IN App.js file:  Change 'localhost' to 'timmysapp-backend' Ex.) apiUrl = 'http://timmysapp-backend:8080/api/users';
         Will need to do this to make request on frontend.
       - Next, Run the command "docker-compose up -d"
       - You should see the application running on "http://localhost:80/"
