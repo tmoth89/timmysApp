@@ -10,7 +10,7 @@ const logger = createLogger({
   transports: [
     new transports.Console(),
     new LokiTransport({
-      host: 'http://localhost',
+      host: 'localhost',
       port: 3100,
       format: require('winston').format.simple()
     })

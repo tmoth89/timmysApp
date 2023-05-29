@@ -14,7 +14,7 @@ RUN npm install
 COPY /myapp ./
 
 # Expose port 80 (the default HTTP port)
-EXPOSE 80
+EXPOSE 4000
 
 # Start the web server
 CMD ["npm", "start"]
